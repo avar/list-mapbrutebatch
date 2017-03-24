@@ -2,6 +2,8 @@ Revision history for Constant::Export::Lazy
 
 {{$NEXT}}
 
+    - Grammar fixes in the documentation.
+
 0.01 2016-10-13 21:36:49
 
     - Initial version.

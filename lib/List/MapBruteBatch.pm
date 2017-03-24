@@ -50,9 +50,9 @@ You have some C<N> number of items you want to process. You have some
 function that can take those C<N>, and it's much cheaper to do them in
 one big batch than one at a time.
 
-However any one of the C<N> items can fail, and if any one fail all
-C<N> fail, and either you don't know which one failed the batch, or
-it's hard to find out.
+However, any one of the C<N> items can fail, causing the entire batch
+of C<N> to fail with it. When that happens you either don't know which
+one failed the batch, or finding out would be tedious.
 
 This module provides a C<map()>-like function to solve that
 problem. It'll attempt to process a C<\@list> you provide with a
